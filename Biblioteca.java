@@ -1,9 +1,9 @@
 import java.util.ArrayList;
 
 public class Biblioteca {
-    String nBiblioteca;
-    ArrayList<Libro> listaLibros;
-    ArrayList<Persona> listaPersonal;
+    private String nBiblioteca;
+    private ArrayList<Libro> listaLibros;
+    private ArrayList<Persona> listaPersonal;
 
     public String getNBiblioteca() {
         return this.nBiblioteca;

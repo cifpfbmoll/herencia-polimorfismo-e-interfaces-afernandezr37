@@ -1,11 +1,11 @@
 import java.util.ArrayList;
 
 public class Persona {
-    String nombre;
-    String apellido1;
-    String apellido2;
-    String nif;
-    String contraseña;
+    private String nombre;
+    private String apellido1;
+    private String apellido2;
+    private String nif;
+    private String contraseña;
 
     public String toString() {
         return(this.nombre + " " + this.apellido1 + " " + this.apellido2 + "\nNIF: " + nif);

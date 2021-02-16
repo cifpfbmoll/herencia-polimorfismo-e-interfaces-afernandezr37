@@ -1,12 +1,12 @@
 import java.util.ArrayList;
 
 public class Libro {
-    int isbn;
-    String titulo;
-    String editorial;
-    int nCopias;
-    int nCopiasDisp;
-    static int contadorLibros = 0;
+    private int isbn;
+    private String titulo;
+    private String editorial;
+    private int nCopias;
+    private int nCopiasDisp;
+    private static int contadorLibros = 0;
 
 
     public String toString() {
